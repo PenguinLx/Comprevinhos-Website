@@ -1,0 +1,121 @@
+#container{
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 900px;
+    height: auto;
+    text-align: center;
+}
+#topo{
+    position: relative;
+    width: 900px;
+    align-self: center;
+    text-align: center;
+}
+
+#menu{
+    width: 900px;
+    height: 40px;
+    word-spacing: 50px;
+    padding-top: 30px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    background-color: rgb(231, 4, 4);
+    border-radius: 15px;
+}
+#formulario{
+    border: solid #000 5px;
+    padding: 4px;
+    width: 550px;
+    display:inline-block;
+    color: #ebe700e8;
+    border-radius: 8px;
+}
+#map{
+    border:5px #000 solid;
+    width: fit-content;
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    color: #ebe700e8;
+}
+#mapbu{
+background-color:#ebe700e8;
+border-radius: 10px;
+}
+#mapbu a{
+    text-decoration: none;
+    color: #000;
+}
+#mapbu:hover{
+    background-color:rgb(231, 4, 4);
+}
+#formulario input{
+    border-radius: 15px;
+    size: 10px;
+    justify-content: center;
+}
+#formulario input:hover{
+    color: #000;
+}
+#env{
+    background-color: #ebe700e8;
+    cursor: pointer;
+}
+#env:hover{
+    background-color: rgb(231, 4, 4);
+}
+#conteudo{
+    width:887px;
+    min-height:300px; 
+    border:1px solid #000;
+    overflow:hidden; 
+    justify-content: center;
+    text-align: center;
+    background-color: #303030be;
+    padding: 5px;
+    }
+#menu a
+{
+font-size:18px;
+color:#ebe700e8;
+text-decoration:none; 
+}
+textarea{
+    resize:none;
+    border-radius: 10px;
+    
+}
+#menu a:hover
+{
+font-family:Arial;
+font-size:25px;
+color:rgb(84, 0, 194);
+}
+#rodape
+{
+width:883px;
+height:130px;
+background-color:rgb(231, 4, 4);
+padding:10px 10px 10px 10px;
+text-align: center;
+border-radius: 15px;
+}
+
+#rodape a{
+    color: #ebe700e8;
+    text-decoration:none;; 
+}
+#rodape a:hover{
+    font-family: serif;
+    color: #005763e8;
+}
+#rodape img:hover{
+    background: #ebe700e8;
+}
